@@ -6,7 +6,7 @@ print 'Please enter ABN:'
 abn_service = AbnValidateService.new(gets)
 result = abn_service.validate
 if result
-	puts "#{abn_service.original_abn} is valid."
+  puts "#{abn_service.original_abn} is valid."
 else
-	puts "#{abn_service.original_abn} is invalid."
+  puts "#{abn_service.original_abn} is invalid."
 end
